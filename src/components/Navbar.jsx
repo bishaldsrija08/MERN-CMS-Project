@@ -4,15 +4,16 @@ const Navbar = () => {
       <header>
         <h1>Green Society Public School</h1>
         <p>Contact us to learn more about our programs and initiatives</p>
-    </header>
-    <nav>
+      </header>
+      <nav>
         <a href="/">Home</a>
         <a href="/about">About</a>
         <a href="/admission">Admissions</a>
         <a href="/contact">Contact</a>
-    </nav>
+        <a href="/test">Test</a>
+      </nav>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
