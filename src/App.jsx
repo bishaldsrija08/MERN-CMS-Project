@@ -5,6 +5,7 @@ import Contact from "./pages/Contact/Contact";
 import About from "./pages/About/About";
 import Admission from "./pages/Admission/Admission";
 import Test from "./pages/test/Test";
+import UseEffect from "./pages/UseEffect/UseEffect";
 
 function App() {
   //JS code goes here
@@ -17,6 +18,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/admission" element={<Admission />} />
         <Route path="/test" element={<Test />} />
+        <Route path = "use-effect" element={<UseEffect/>}/>
       </Routes>
     </BrowserRouter>
   );

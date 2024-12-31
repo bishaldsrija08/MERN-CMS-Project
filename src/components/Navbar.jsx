@@ -2,7 +2,7 @@ const Navbar = () => {
   return (
     <div>
       <header>
-        <h1>Green Society Public School</h1>
+        <h1>Hello, World! Public School</h1>
         <p>Contact us to learn more about our programs and initiatives</p>
       </header>
       <nav>
@@ -11,6 +11,7 @@ const Navbar = () => {
         <a href="/admission">Admissions</a>
         <a href="/contact">Contact</a>
         <a href="/test">Test</a>
+        <a href="/use-effect">UseEffect</a>
       </nav>
     </div>
   );
